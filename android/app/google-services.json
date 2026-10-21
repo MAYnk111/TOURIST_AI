@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "843994013067",
+    "project_id": "challenge-caf7b",
+    "storage_bucket": "challenge-caf7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843994013067:android:27a5d7f86be8320bdfa38e",
+        "android_client_info": {
+          "package_name": "com.aitourist.ai_tourist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUNrB7iVQ2mBsDhQElodtniNtMPdcWVDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843994013067:android:dbff06598ff7a188dfa38e",
+        "android_client_info": {
+          "package_name": "com.example.sat2farm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUNrB7iVQ2mBsDhQElodtniNtMPdcWVDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

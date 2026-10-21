@@ -1,0 +1,34 @@
+{
+  "dataset_metadata": {
+    "source": "Calibrated Indian Tourism Expenditure Benchmarks",
+    "total_samples": 2000,
+    "train_samples": 1600,
+    "test_samples": 400,
+    "features": [
+      "dest_tier",
+      "days",
+      "travelers",
+      "style_score",
+      "activities_count"
+    ],
+    "target": "total_cost (INR)",
+    "leakage_free_split": "GroupShuffleSplit (zero group overlap)"
+  },
+  "metrics": {
+    "dummy_baseline": {
+      "MAE": 87953.75,
+      "RMSE": 124659.33,
+      "R2": -0.0018
+    },
+    "gradient_boosting": {
+      "MAE": 5984.85,
+      "RMSE": 9303.12,
+      "R2": 0.9944
+    },
+    "random_forest": {
+      "MAE": 8663.4,
+      "RMSE": 15269.05,
+      "R2": 0.985
+    }
+  }
+}
